@@ -31,10 +31,7 @@
             if($i+1 >= count($words)) {
 
                 // Manda brasa!
-                $lines[] = [
-                    'text' => $currentLine,
-                    'width' => $image->queryFontMetrics($draw, $currentLine)['textWidth']
-                ];
+                $lines[] = ['text' => $currentLine,'width' =>$image->queryFontMetrics($draw, $currentLine)['textWidth']];
                 break;
 
             }
