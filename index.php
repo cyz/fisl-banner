@@ -246,7 +246,7 @@
 
                     <p>Preencha todos os campos abaixo e deixe que nós cuidamos do resto</p>
 
-                    <form action="/" method="post" enctype="multipart/form-data">
+                    <form action="index.php" method="post" enctype="multipart/form-data">
                         <input type="text" class="form-control" name="palestrante" placeholder="Seu nome" required>
                         <input type="text" class="form-control" name="palestra" placeholder="Nome da Palestra" required>
                         <label>Sua foto: <input type="file" name="foto" required></label>
