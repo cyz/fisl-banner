@@ -1,5 +1,5 @@
 <?php
-
+    error_reporting(E_ALL);
     /**
     * TBD
     * - Definir tamanho limite para a imagem (tanto em MB quanto em PX)
